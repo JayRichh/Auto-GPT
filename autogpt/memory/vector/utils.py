@@ -1,4 +1,5 @@
-from typing import Any, overload
+from typing import Any, overload, List, Union
+
 
 import numpy as np
 
@@ -7,9 +8,8 @@ from autogpt.llm.base import TText
 from autogpt.llm.providers import openai as iopenai
 from autogpt.logs import logger
 
-Embedding = list[np.float32] | np.ndarray[Any, np.dtype[np.float32]]
+Embedding = Union[List[np.float32], np.ndarray]
 """Embedding vector"""
-
 
 @overload
 def get_embedding(input: str | TText) -> Embedding:

@@ -33,5 +33,5 @@ def main():
         print("All packages are installed.")
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

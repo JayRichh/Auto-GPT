@@ -97,5 +97,5 @@ def autogpt_server():
     server_process.terminate()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     autogpt()

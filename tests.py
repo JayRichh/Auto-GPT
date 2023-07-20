@@ -2,7 +2,7 @@ import unittest
 
 import coverage
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     # Start coverage collection
     cov = coverage.Coverage()
     cov.start()

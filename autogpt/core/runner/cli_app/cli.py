@@ -43,5 +43,5 @@ async def run(settings_file: str, pdb: bool) -> None:
     await main(settings)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     autogpt()

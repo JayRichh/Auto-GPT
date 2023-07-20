@@ -61,5 +61,5 @@ def install_plugin_dependencies():
     logger.debug("Finished installing plugin dependencies")
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     install_plugin_dependencies()
