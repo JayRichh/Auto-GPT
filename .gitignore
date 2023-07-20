@@ -160,3 +160,6 @@ openai/
 
 # news
 CURRENT_BULLETIN.md
+.env copy
+prompt_settings.yaml
+prompt_settings.yaml
